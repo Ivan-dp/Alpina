@@ -1,0 +1,534 @@
+body {
+  margin: 0;
+  background: url(../img/bcg-middle.jpg) repeat-x top/100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  background: url(../img/bcg-top.png) no-repeat top/100%;
+  height: 770px;
+  position: relative;
+  display: block;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  padding-top: 35px;
+  margin: auto;
+  top: 0px;
+}
+
+.logo-a {
+  height: 59px;
+}
+
+.logo {
+  padding-left: 55px;
+  margin-right: 70px;
+}
+
+.nav {
+  font-family: "Paytone One", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-right: 30px;
+}
+
+.container {
+  width: 992px;
+  height: 1680px;
+  margin: auto;
+  margin-top: 94px;
+  bottom: 0px;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(50, 42, 39, 0) 0%,
+    rgba(45, 40, 40, 0.85) 33.85%,
+    #2d2828 49.48%,
+    #2d2828 68.75%,
+    #2d2828 82.29%,
+    #2d2828 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+  padding-left: 64px;
+  padding-top: 76px;
+}
+
+.hero > h1 {
+  font-family: "Paytone One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 90px;
+  color: white;
+  margin: 0;
+}
+
+.hero > h2 {
+  font-family: "Paytone One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero > p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  width: 432px;
+  margin-top: 33px;
+}
+
+.e-mail {
+  margin-top: 25px;
+}
+
+.e-mail > input,
+button {
+  font-family: "Pavanam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.4);
+  height: 36px;
+  border-radius: 18px;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.e-mail > input {
+  width: 290px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  padding-left: 34px;
+}
+
+.e-mail > button {
+  width: 123px;
+  border: 2px solid red;
+  text-align: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.social {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  width: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 67px;
+  padding-left: 66px;
+  padding-right: 80px;
+}
+
+.main {
+  padding-top: 46px;
+}
+
+.pictures {
+  width: 842px;
+  height: 308px;
+  position: relative;
+  /* margin-top: 46px; */
+  /* bottom: 0; */
+  margin: auto;
+  /* display: flex; */
+}
+
+.picture_1,
+.picture_3 {
+  z-index: 5;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(
+      180.1deg,
+      rgba(44, 40, 40, 0) 0.09%,
+      rgba(44, 40, 40, 0.5) 55.06%,
+      rgba(44, 40, 40, 0.664052) 100.46%,
+      #2c2828 148.14%
+    ),
+    url(workfromhome_new.jpg);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(-10px 15px 10px rgba(0, 0, 0, 0.25));
+}
+
+.picture_1 {
+  left: 0;
+}
+
+.picture_3 {
+  right: 0;
+}
+
+.picture_2 {
+  z-index: 10;
+  top: 0;
+  left: 274px;
+  margin: auto;
+  align-items: center;
+  position: absolute;
+  background: linear-gradient(
+      180.1deg,
+      rgba(44, 40, 40, 0) 0.09%,
+      rgba(44, 40, 40, 0.5) 55.06%,
+      rgba(44, 40, 40, 0.664052) 100.46%,
+      #2c2828 148.14%
+    ),
+    url(how-to-implement-a-flawless-digital-marketing-strategy-750x410.jpg),
+    #c4c4c4;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25);
+}
+
+.marketing {
+  align-items: center;
+  width: 572px;
+  height: 35px;
+  display: flex;
+  margin: auto;
+  margin-top: 61px;
+  margin-bottom: 61px;
+}
+
+.marketing-text {
+  font-family: "Paytone One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: white;
+  margin-right: 7px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.line {
+  margin-right: 10px;
+}
+
+.message-icon {
+  margin-right: 7px;
+}
+
+.thread-button {
+  width: 142px;
+  height: 27px;
+  align-items: center;
+  display: flex;
+  padding-left: 16px;
+  background: linear-gradient(180deg, #864a23 0%, #6a3a1b 100%);
+  border-radius: 20px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+
+.btn-text {
+  padding-left: 7px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+
+.cards {
+  width: 100%;
+  display: inline-block;
+  justify-content: space-between;
+  /* padding-left: 67px;
+  padding-right: 85px; */
+}
+
+.block {
+  justify-content: space-between;
+  min-height: 190px;
+  display: flex;
+  padding-left: 67px;
+  padding-right: 93px;
+  margin-bottom: 70px;
+}
+
+.card-wrapper {
+  width: 455px;
+  height: 190px;
+  /* margin-left: 67px; */
+}
+
+.card-title {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.ct-left {
+  display: flex;
+  align-items: center;
+}
+
+.ct-left > p {
+  font-family: "Segoe UI";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  margin-left: 10px;
+}
+
+.change {
+  margin-left: 0 !important;
+}
+
+.card-button-1 {
+  width: 130px;
+  height: 100%;
+  border: none;
+  background: url("../img/card_bcg.jpg") no-repeat center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-button-1 > img {
+  margin: auto 5px auto 6px;
+}
+
+.card-button-1 > p {
+  color: #2d2828;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.card-button-2 {
+  width: 130px;
+  height: 100%;
+  border: none;
+  background: url("../img/card_bcg.jpg") no-repeat center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.card-button-2 > img {
+  width: 48px;
+  height: 29px;
+  margin: auto 5px auto auto;
+}
+
+.card-button-2 > p {
+  color: #2d2828;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: 16px;
+}
+
+.card {
+  width: 100%;
+  height: 130px;
+  background: url("../img/card_bcg.jpg") no-repeat center/100%;
+  box-sizing: border-box;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  width: 186px;
+  height: 100%;
+  margin: 0;
+}
+
+.avatar {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 1px solid #2d2828;
+  overflow: hidden;
+  margin: 14px 15px auto 17px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.photo {
+  min-width: 100%;
+  height: 100%;
+}
+
+.user > span {
+  float: left;
+}
+
+.user-name {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2d2828;
+  margin: 15px auto auto auto;
+}
+
+.time {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  color: rgba(45, 40, 40, 0.7);
+}
+
+.text {
+  width: 250px;
+  float: right;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.text > h2 {
+  margin: 24px auto 15px auto;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 100%;
+  color: #2d2828;
+}
+
+.text > p {
+  margin: 0;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2d2828;
+}
+
+.description-wrapper {
+  width: 310px;
+  height: 150px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 57px;
+}
+
+.description-wrapper > h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 26px;
+  margin-top: 0;
+}
+
+.description-wrapper > p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.under-main {
+  width: 840px;
+  height: 470px;
+  margin: auto;
+}
+
+.brands {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.gloss {
+  margin-top: 10px;
+}
+
+.brands-info {
+  width: 844px;
+  height: 296px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-block {
+  width: 268px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.top {
+  width: 100%;
+  height: 92px;
+  align-items: center;
+  display: flex;
+}
+
+.user-photo {
+  width: 89px;
+  height: 89px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 15px;
+}
+
+.brand {
+  float: left;
+}
+
+.brand-block > p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
+  width: 260px;
+  /* margin-top: 33px; */
+}
